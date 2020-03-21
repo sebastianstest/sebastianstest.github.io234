@@ -30,6 +30,11 @@ a:hover{
 
 /* ------------ Mobile first, css settings for mobile ------------ */
 
+.width-container{
+    width: auto;
+}
+
+
 header{
     grid-area: header;
     display: grid;
@@ -162,15 +167,18 @@ div.partnersLogo  {
 /* Desktop */
 @media screen and (min-width: 1025px) {
 
+
+    .width-container{
+        width: 1100px;
+    }
+
     body{
         background-color: white;
     }
     header.header-container{
-        width: 1100px;
         margin: 0 auto;
     }
     section.grid-container{
-        width: 1100px;
         margin: 0 auto;
     }
     nav.nav_list{
@@ -179,23 +187,18 @@ div.partnersLogo  {
     }
     article.productWallClass{
         text-align: center;
-        width: 1100px;
         margin: 0 auto;
     }
     main{
         grid-template-columns: 1fr 1fr;
     }
     div.productWall{
-        width: 1100px;
         margin: 0 auto;
     }
     .productWall{
-        width: 1100px;
         height: auto;
     }
-    hr{
-        width: 1100px;
-    }
+
     div.main2{
         grid-template-columns: 1fr 1fr 1fr ;
         grid-template-rows: auto auto auto;
@@ -209,7 +212,6 @@ div.partnersLogo  {
         width: 100%;
     }
     footer{
-        width: 1100px;
         margin: 0 auto;
         text-align: center;
     }
