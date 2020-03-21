@@ -172,7 +172,7 @@ div.partnersLogo  {
     }
 
     body{
-        background-color: white;
+        width: 1100px;
     }
     header.header-container{
         margin: 0 auto;
@@ -219,4 +219,5 @@ div.partnersLogo  {
     }
 
 }
+
 
