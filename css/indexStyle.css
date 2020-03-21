@@ -81,11 +81,10 @@ article.productWallClass{
 section{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
     "navigation"
-    "main-content"
-    "footer";
+    "main-content";
     grid-gap: 15px;
     text-align: center;
 }
@@ -100,9 +99,10 @@ main article{
     padding: 15px;
 }
 footer{
-    grid-area: footer;
     background-color: white;
     padding: 15px;
+    text-align: center;
+    width: auto;
 }
 .cartLogo{
     height: 18px;
@@ -118,7 +118,8 @@ footer{
 }
 article.video{
     height: auto;
-    width: auto;
+    width: 100%;
+    object-fit: cover;
 }
 div.main2{
     grid-gap: 15px;
@@ -149,13 +150,11 @@ div.main3{
     opacity: 50%;
     text-decoration: underline;
 }
-footer{
-    text-align: center;
-}
+
 div.partnersLogo  {
     grid-gap: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
     text-align: center;
     padding: 15px;
 }
